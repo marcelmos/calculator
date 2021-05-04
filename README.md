@@ -11,7 +11,7 @@ To open project just download it or pull this project and just open `index.html`
 
 ### Or
 
-Check it on [LIVE PREVIEW]() in your browser.
+Check it on [LIVE PREVIEW](https://codesandbox.io/s/vibrant-mestorf-yb13g) in your browser.
 
 ## Project usage
 
