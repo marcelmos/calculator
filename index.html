@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="calc-content">
+
+            <div class="display">
+                <input type="text" class="calc-input-display" value="0" disabled>
+                <input type="text" class="calc-display" value="0" disabled>
+            </div>
+
+            <section class="calc-keys">
+                <button type="button" class="operator" value="%">%</button>
+                <button type="button" class="operator" value="+/-">+/-</button>
+                <button type="button" class="operator" value="C">C</button>
+                <button type="button" class="operator btn-purple" value="/">/</button>
+
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+                <button type="button" class="operator btn-purple" value="*">x</button>
+
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+                <button type="button" class="operator  btn-purple" value="-">-</button>
+
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button>
+                <button type="button" class="operator btn-purple" value="+">+</button>
+
+                <button type="button" value="0">0</button>
+                <button type="button" class="decimal" value=",">,</button>
+                <button type="button" class="operator equal-sign" value="=">=</button>
+            </section>
+        </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
